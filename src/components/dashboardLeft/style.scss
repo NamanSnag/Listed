@@ -1,0 +1,49 @@
+.dash__left {
+  background-color: var(--primary-text);
+  color: var(--primary-text-white);
+  width: 17.5rem;
+  // height: calc(100vh - 5rem);
+  height: 100%;
+  border-radius: 30px;
+  padding: 3.75rem 3.13rem;
+  flex-direction: column;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+
+  .dashl__top {
+    .dashl__head {
+      font-size: 2.25rem;
+      font-family: Montserrat;
+      font-weight: 700;
+    }
+
+    .dashl__list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 3.75rem;
+
+      .dashl__item {
+        display: flex;
+        gap: 1.25rem;
+
+        p {
+          font-size: 1.125rem;
+          font-family: Montserrat;
+        }
+      }
+    }
+  }
+
+  .dashl__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    p {
+      font-size: 0.875rem;
+      font-family: Montserrat;
+    }
+  }
+}
